@@ -9,12 +9,12 @@ const Banner = (movie) => {
     const dispatch = useDispatch();
 
     const showDetail =()=>{
-        navigate(`/movies/${movie.id}`)
-        dispatch(movieAction.getDetailMovie(movie.id))
+        navigate(`/movies/${movie.movie.id}`)
+        dispatch(movieAction.getDetailMovie(movie.movie.id))
         dispatch({type:"STATE_RESET"})
     }
 
-    console.log(movie)
+    console.log("movie",movie.movie.id)
     return (
         <div className='banner' onClick={showDetail}>
             <img src={`https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/${movie.movie.poster_path}`} />
