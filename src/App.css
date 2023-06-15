@@ -129,6 +129,7 @@ body {
     height: 80vh;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .banner::before {
