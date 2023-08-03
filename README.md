@@ -4,7 +4,7 @@
 <br/>
 <br/>
 
-`React`를 이용하여 The Movie Database에서 제공하는 다양한 API를 사용하여 영화 정보 제공 홈페이지를 제작했습니다.
+`React`와 The Movie Database에서 제공하는 다양한 API를 사용하여 영화 정보 제공 홈페이지를 제작했습니다.
 
 
 `React-Router`를 사용하여 서브페이지로 이동할 수 있으며, 각 컴포넌트 간의 props는 `React-Redux`를 사용하여 관리했습니다.
